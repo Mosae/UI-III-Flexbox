@@ -313,3 +313,95 @@ address {
 
 /* end of home page */
 /* start of services page */
+
+.header {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.boxes {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.digital {
+	/* display: flex;
+	justify-content: space-between; */
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.ui {
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.marketing {
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.web {
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.ios {
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+.android {
+	background: grey;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+button {
+	padding: 5px;
+	margin: 10px;
+	width: 120px;
+}
+
+.facts {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.factsP {
+	display: flex;
+	width: 45%;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+ul {
+	margin-left: 20px;
+	margin-top: 10px;
+	list-style-type: square;
+}
+
+.somefacts {
+	display: flex;
+
+	float: left;
+
+}
+
+.bottomfacts {
+	display: flex;
+	flex-direction: column;
+}
+
+.copyright {
+	line-height: 15em;
+}
