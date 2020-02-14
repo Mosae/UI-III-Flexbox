@@ -234,9 +234,9 @@ header a:hover {
 .CTA {
 	font-size: 80px;
 	display: flex;
-	justify-content: space-evenly;
-	align-content: flex-end;
-	text-align: center;
+
+	justify-content: flex-start;
+	flex-direction: column-reverse;
 
 }
 
@@ -246,10 +246,6 @@ header a:hover {
 	color: grey;
 	background-color: white;
 	position: absolute;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-
 
 
 }
