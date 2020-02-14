@@ -264,13 +264,6 @@ h1 {
 }
 
 
-/* .content { */
-/* display: flex;
-	justify-content: space-evenly; */
-/* display: inline-block;
-	position: relative; */
-/* } */
-
 .topBox {
 	display: flex;
 	margin-bottom: 2%;
@@ -288,11 +281,8 @@ h1 {
 }
 
 footer {
-	/* display: inline-block;
-	position: relative; */
+
 	width: 100%;
-	/* margin: 3% 0;
-	line-height: 2; */
 }
 
 address {
@@ -307,8 +297,15 @@ address {
 .contact {
 	display: flex;
 	flex-direction: column;
+	margin-top: 15px;
+	margin-bottom: 10px;
 	/* align-items: space-between; */
 	/* line-height: 2; */
+}
+
+h2 {
+	margin-top: 15px;
+
 }
 
 /* end of home page */
@@ -382,6 +379,7 @@ button {
 li {
 	display: list-item;
 	text-align: -webkit-match-parent;
+	margin-top: 20px;
 }
 
 ul {
@@ -392,7 +390,6 @@ ul {
 
 .somefacts {
 	display: flex;
-
 	float: left;
 
 }
@@ -400,8 +397,18 @@ ul {
 .bottomfacts {
 	display: flex;
 	flex-direction: column;
+	margin-top: 2em;
 }
 
 .copyright {
 	line-height: 15em;
+}
+
+.serviceimg {
+	display: flex;
+	margin-top: 2em;
+}
+
+#contact {
+	margin-bottom: 1.5em;
 }
